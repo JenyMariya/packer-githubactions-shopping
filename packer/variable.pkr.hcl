@@ -1,18 +1,12 @@
 variable "project_name" {
-  type        = string
-  description = "name of the project"
   default     = "shopping_app"
 }
 
 variable "project_env" {
-  type        = string
-  description = "product environment"
   default     = "prod"
 }
 
 variable "instance_type" {
-  type        = string
-  description = "instance type"
   default     = "t2.micro"
 }
 
@@ -22,7 +16,5 @@ locals {
 }
 
 variable "ami_id" {
-  type        = string
-  description = "id of ami"
-  default     = "ami-02e94b011299ef128"
+  default     = "ami-0a0f1259dd1c90938"
 }
